@@ -15,7 +15,7 @@ To recreate this project with the same configuration:
 
 ```sh
 # recreate this project
-pnpm dlx sv@0.14.1 create --template minimal --types ts --add prettier tailwindcss="plugins:none" drizzle="database:sqlite+sqlite:better-sqlite3" --install pnpm web
+pnpm dlx sv@0.14.1 create --template minimal --types ts --add prettier eslint sveltekit-adapter="adapter:static" tailwindcss="plugins:none" --install pnpm web
 ```
 
 ## Developing
